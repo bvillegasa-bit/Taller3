@@ -1,0 +1,347 @@
+/* Estilos ejercicio1 */
+.bodyE1 {
+    display: flex;
+    background-color: black;
+    ;
+    margin: 10px;
+}
+
+.h2E1 {
+    text-align: left;
+    padding: 10px;
+}
+
+.pE1 {
+    text-align: justify;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.displayContainer {
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.displayContainer-secundario {
+    display: flex;
+}
+
+.displayContainer div {
+    margin: 5px;
+    border-radius: 10px;
+    border: 3px solid gray;
+}
+
+.displayContainer button {
+    padding: 10px;
+    background-color: gray;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.div-33 {
+    width: 33%;
+    height: 450px;
+}
+
+.div-33 button {
+    width: 200px;
+}
+
+.imgAbajo {
+    width: 100%;
+    height: 150px;
+}
+
+.divArriva {
+    height: 400px;
+}
+
+.divBoton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+/* Estilos ejercicio2 */
+.imagenFondoE2 {
+    background-image: url('../recursos/imagenes/principalE2.jpeg');
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.textoImagenFondoE2 {
+    width: 50%;
+    text-align: left;
+    padding-left: 150px;
+
+}
+
+.bodyE2 {
+    margin: 0;
+}
+
+.navIzq {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav {
+    display: flex;
+}
+
+nav>div>a,
+button {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.navBoton {
+    width: 250px;
+    height: 20px;
+    background-color: brown;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+.navDerecha {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-right: 25px;
+    text-align: center;
+}
+
+.contenedorPrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.divContenidoE2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+}
+
+.divContenidoE2>div {
+    margin: 15px;
+}
+
+.divContenidoE2>div>button {
+    border-radius: 30px;
+    height: 50px;
+}
+
+.divContenidoE2>div>p {
+    text-align: left;
+}
+
+.imagenPaises {
+    width: 100%;
+    height: 200px;
+}
+.btnRegresar{
+    margin: 10px;
+}
+
+/* Estilos ejercicio3 */
+.bodyE3 {
+    margin: 0;
+    padding: 0;
+    justify-content:center;
+    align-items: center;
+}
+.navGeneralE3 {
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 3px solid gray;
+    width: 100%;
+    height: 80px;
+}
+.navGeneralE3>div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.navGeneralE3>div>button{
+    padding: 10px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 300px;
+    justify-content: right;
+}
+.divGeneralE3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    border: 3px solid gray;
+}
+.divGeneralE3>div{
+    text-align: center;
+    margin: 20px;
+    width: 50%;
+} 
+.divGeneralE3>div>button{
+    padding: 10px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 300px;
+}
+.divDetalleE3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.divDetalleE3>div{
+    text-align: center;
+    margin: 20px;
+    width: 33%;
+}
+
+.imgP3{
+    width: 33%;
+    height: 200px;
+}
+.serviciosE3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    border:3px solid gray;
+    
+}
+.serviciosE3>div{
+    text-align: center;
+    margin: 10px;
+    width: 50%;
+    height: 200px;
+    gap: 20px;
+    background-color: rgb(174, 172, 172);
+}
+.serviciosE3>div>button{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 300px;
+}
+.botonRegresarE3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.botonRegresarE3>button{
+    padding: 10px;
+    background-color: blue;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 300px;
+    margin: 10px;
+}   
+.botonRegresarE3>button>a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos index */
+.bodyindex{
+    background-color: rgb(98, 159, 225); 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navIndex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    gap: 20px;
+    background-color: bisque; 
+    margin: 0;
+    border: 0; 
+    
+    padding: 0;
+}
+.navIndex>div{
+    width: 50%;
+}
+.navIndex>div>img{
+    width: 100px; 
+    height: 100px;
+}
+.contenedorIndex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    gap: 20px;
+    background-color: rgb(98, 159, 225); 
+    margin: 0;
+    padding: 0;
+}
+.contenedorIndex>div{
+    width: 20%;
+    height: 500px;
+    background-color: white; 
+    border: 3px solid rgb(47, 79, 121); 
+    margin: 20px;
+    padding: 10px;
+}
+.contenedorIndex>div>img{
+    width: 100%;
+    height: 300px;
+}
